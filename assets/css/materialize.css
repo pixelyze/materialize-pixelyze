@@ -9746,6 +9746,33 @@ a[href^=tel] {
   font-size: 1.8em;
   color: #fff;
   top: 1em;
-  right: 1em; }
+  right: 1em;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   .link-github:hover, .link-github:focus {
     color: #9F9F9F; }
+
+.posts {
+  margin-top: 0px; }
+
+.posts li a, footer a {
+  color: rgba(255, 255, 255, 0.8);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .posts li a:hover, .posts li a:focus, footer a:hover, footer a:focus {
+    color: #fff;
+    text-decoration: underline; }
+
+.contact-item {
+  display: block;
+  color: rgba(255, 255, 255, 0.8); }
+  .contact-item > i {
+    font-size: 20px;
+    margin-right: 5px; }
+
+footer h5 {
+  color: rgba(255, 255, 255, 0.8); }
