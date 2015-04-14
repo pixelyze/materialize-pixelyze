@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
@@ -9701,3 +9704,48 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .fa-medium:before {
   content: "\f23a"; }
+
+.rotate {
+  text-shadow: 0 0 0 !important; }
+
+h1, h2, h3, h4, h5 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1, h2, h3 {
+  font-weight: 700; }
+  @media only screen and (max-width: 600px) {
+    h1, h2, h3 {
+      font-size: 30px;
+      line-height: 36px; } }
+
+.home {
+  padding: 60px 0; }
+  @media only screen and (min-width: 992px) {
+    .home {
+      padding: 120px 0; } }
+
+.skills, .contact {
+  padding: 45px 0; }
+  @media only screen and (min-width: 992px) {
+    .skills, .contact {
+      padding: 90px 0; } }
+
+.social i {
+  font-size: 20px; }
+
+q {
+  quotes: "«" "»"; }
+
+a[href^=tel] {
+  text-decoration: inherit;
+  color: inherit; }
+
+.link-github {
+  position: absolute;
+  display: inline-block;
+  font-size: 1.8em;
+  color: #fff;
+  top: 1em;
+  right: 1em; }
+  .link-github:hover, .link-github:focus {
+    color: #9F9F9F; }

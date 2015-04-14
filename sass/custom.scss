@@ -1,5 +1,6 @@
 @import "compass/css3";
 
+
 //Colors
 //$primary		: 		#1a237e;	
 //$secondary	: 		#1a237e;
@@ -16,34 +17,33 @@ h1, h2, h3, h4, h5 {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3 {
-  font-weight: 700; }
+  font-weight: 700; 
 
-h3 {
-	//text-transform: uppercase;
-  }
-
-.home {
-  padding: 120px 0; }
-
-.skills, .contact {
-  padding: 90px 0; }
-
-.social i{
-	font-size:20px;
-}
-
-
-$break-small: 320px;
-$break-large: 1200px;
-
-h1, h2, h3 {
-  @media screen and (max-width: $break-small) {
+  @media only screen and (max-width: $small-screen) {
     font-size: 30px;
     line-height: 36px;
   }
-  @media screen and (min-width: $break-large) {
+}
+
+.home {
+  padding: 60px 0;
+  @media only screen and (min-width: $medium-screen) {
+    padding: 120px 0; 
   }
 }
+
+.skills, .contact {
+  padding: 45px 0;
+  @media only screen and (min-width: $medium-screen) {
+    padding: 90px 0; 
+  }
+}
+
+
+.social i {
+	font-size:20px;
+}
+
 
 q {
     quotes: "«" "»";
@@ -52,4 +52,18 @@ q {
 a[href^=tel] {
 text-decoration:inherit;
 color: inherit;
+}
+
+.link-github {
+  position:absolute;
+  display: inline-block;
+  font-size: 1.8em;
+  color: #fff;
+  top:1em;
+  right: 1em;
+
+  &:hover,
+  &:focus {
+    color: $button-color-disabled;
+  }
 }
