@@ -1,0 +1,55 @@
+@import "compass/css3";
+
+//Colors
+//$primary		: 		#1a237e;	
+//$secondary	: 		#1a237e;
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+
+.rotate {
+  text-shadow: 0 0 0 !important; 
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1, h2, h3 {
+  font-weight: 700; }
+
+h3 {
+	//text-transform: uppercase;
+  }
+
+.home {
+  padding: 120px 0; }
+
+.skills, .contact {
+  padding: 90px 0; }
+
+.social i{
+	font-size:20px;
+}
+
+
+$break-small: 320px;
+$break-large: 1200px;
+
+h1, h2, h3 {
+  @media screen and (max-width: $break-small) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: $break-large) {
+  }
+}
+
+q {
+    quotes: "«" "»";
+}
+
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+}
