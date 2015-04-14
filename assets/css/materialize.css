@@ -9732,7 +9732,7 @@ h1, h2, h3 {
 
 .social i {
   font-size: 20px; }
-.social .mail {
+.social i.mail {
   color: #000; }
 
 q {
