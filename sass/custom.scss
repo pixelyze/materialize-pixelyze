@@ -39,8 +39,13 @@ h1, h2, h3 {
   }
 }
 
-.social i {
-	font-size:20px;
+.social {
+	i {
+    font-size:20px;
+  }
+  .mail {
+    color: #000;
+  }
 }
 
 q {
@@ -55,15 +60,15 @@ color: inherit;
 .link-github {
   position:absolute;
   display: inline-block;
-  font-size: 1.8em;
-  color: #fff;
+  font-size: 2em;
+  color: rgba(255,255,255,.8);
   top:1em;
   right: 1em;
   @include transition (all 0.3s ease);
 
   &:hover,
   &:focus {
-    color: $button-color-disabled;
+    color: #fff;
   }
 }
 

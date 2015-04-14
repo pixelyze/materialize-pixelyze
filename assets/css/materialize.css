@@ -9732,6 +9732,8 @@ h1, h2, h3 {
 
 .social i {
   font-size: 20px; }
+.social .mail {
+  color: #000; }
 
 q {
   quotes: "«" "»"; }
@@ -9743,8 +9745,8 @@ a[href^=tel] {
 .link-github {
   position: absolute;
   display: inline-block;
-  font-size: 1.8em;
-  color: #fff;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.8);
   top: 1em;
   right: 1em;
   -moz-transition: all 0.3s ease;
@@ -9752,7 +9754,7 @@ a[href^=tel] {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .link-github:hover, .link-github:focus {
-    color: #9F9F9F; }
+    color: #fff; }
 
 .posts {
   margin-top: 0px; }
